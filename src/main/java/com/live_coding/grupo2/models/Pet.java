@@ -25,7 +25,7 @@ public class Pet {
     private String typeOfAnimal;
 
     @Column (name = "age", length = 20)
-    private Long age;
+    private Double age;
 
     @Column (name = "weight", length = 20)
     private Double weight;
